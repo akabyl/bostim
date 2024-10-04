@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bostim</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+		<link href="./css/hamburger.css" rel="stylesheet" />
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="container">
+					<div class="header__row">
+						<div class="header__logo">
+							<a class="logo" href="#!">
+								<img src="./img/icon/logo-img.svg" alt="Bostim logo" />
+								<span>Logo</span>
+							</a>
+						</div>
+						<div class="background"></div>
+						<div class="header__list nav">
+							<ul class="nav__list">
+								<li class="nav__item nav-item dropdown-menu-branch">
+									<a class="nav-item__link" href="#!" data-toggle="dropdown-menu">
+										Портфолио
+										<svg
+											width="20"
+											height="20"
+											viewBox="0 0 20 20"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M5 7.5L10 12.5L15 7.5"
+												stroke="black"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</a>
+									<ul class="nav-item__list dropdown-menu">
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Портфолио submenu 1</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Портфолио submenu 2</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Портфолио submenu 3</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Портфолио submenu 4</a>
+										</li>
+									</ul>
+								</li>
+								<li class="nav__item nav-item dropdown-menu-branch">
+									<a class="nav-item__link" href="#!" data-toggle="dropdown-menu">
+										Энергетика
+										<svg
+											width="20"
+											height="20"
+											viewBox="0 0 20 20"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M5 7.5L10 12.5L15 7.5"
+												stroke="black"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</a>
+									<ul class="nav-item__list"></ul>
+								</li>
+								<li class="nav__item nav-item dropdown-menu-branch">
+									<a class="nav-item__link" href="#!" data-toggle="dropdown-menu"
+										>Обучения
+										<svg
+											width="20"
+											height="20"
+											viewBox="0 0 20 20"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M5 7.5L10 12.5L15 7.5"
+												stroke="black"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</a>
+
+									<ul class="nav-item__list dropdown-menu">
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Обучения submenu 1</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Обучения submenu 2</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Обучения submenu 3</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Обучения submenu 4</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Обучения submenu 5</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Обучения submenu 6</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Обучения submenu 7</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Обучения submenu 8</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Обучения submenu 9</a>
+										</li>
+									</ul>
+								</li>
+								<li class="nav__item nav-item dropdown-menu-branch">
+									<a class="nav-item__link" href="#!" data-toggle="dropdown-menu"
+										>IT
+										<svg
+											width="20"
+											height="20"
+											viewBox="0 0 20 20"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M5 7.5L10 12.5L15 7.5"
+												stroke="black"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</a>
+									<ul class="nav-item__list"></ul>
+								</li>
+								<li class="nav__item nav-item dropdown-menu-branch">
+									<a class="nav-item__link" href="#!" data-toggle="dropdown-menu">Контакты</a>
+								</li>
+							</ul>
+						</div>
+						<div class="header__btns">
+							<a class="sign-in btn-border btn-all" href="#!">вход</a>
+							<a class="notification btn-all" href="#!">
+								<img src="./img/icon/notification.svg" alt="" />
+							</a>
+						</div>
+						<button class="hamburger hamburger--spin open-menu" type="button">
+							<span class="hamburger-box">
+								<span class="hamburger-inner"></span>
+							</span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="main">
+				<section class="company">
+					<div class="container">
+						<div class="company__top">
+							<h2 class="company__title">ЭнергоТех" — крупная производственная компания,</h2>
+						</div>
+					</div>
+					<div class="company__center">
+						<div class="swiper company__slide">
+							<div class="swiper company-swiper">
+								<div class="swiper-wrapper">
+									<div
+										class="swiper-slide company-slide"
+										style="background-image: url(./img/company/image.jpg)"
+									></div>
+									<div
+										class="swiper-slide company-slide"
+										style="background-image: url(./img/company/image2.jpg)"
+									></div>
+									<div
+										class="swiper-slide company-slide"
+										style="background-image: url(./img/company/image3.jpg)"
+									></div>
+									<div
+										class="swiper-slide company-slide"
+										style="background-image: url(./img/company/image4.jpg)"
+									></div>
+									<div
+										class="swiper-slide company-slide"
+										style="background-image: url(./img/company/image5.jpg)"
+									></div>
+								</div>
+								<div class="swiper-pagination energo-pagination"></div>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="company__bottom">
+							<p class="company__text">
+								специализирующаяся на производстве промышленного оборудования. Основной задачей клиента было
+								снижение затрат на энергопотребление и повышение эффективности использования ресурсов на
+								производственных мощностях.
+							</p>
+						</div>
+					</div>
+				</section>
+				<section class="process">
+					<div class="container">
+						<div class="process__inner">
+							<div class="process__tasks">
+								<div class="process__content">
+									<h2 class="process__title">Задачи проекта:</h2>
+									<p>Провести полный энергетический аудит предприятия.</p>
+									<p>Выявить неэффективные участки энергопотребления.</p>
+									<p>Разработать рекомендации по сокращению затрат и улучшению энергоэффективности.</p>
+								</div>
+								<div class="process__image">
+									<img src="./img/process/1.png" alt="" />
+								</div>
+							</div>
+							<div class="process__solution">
+								<div class="process__image">
+									<img src="./img/process/2.png" alt="" />
+								</div>
+								<div class="process__content">
+									<h2 class="process__title">Решение:</h2>
+									<p>
+										Наша команда провела детальный анализ всех систем энергопотребления компании, выявив
+										ключевые проблемные зоны. Мы предложили внедрение энергоэффективного оборудования и
+										переработку процессов управления энергией.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="testimonial">
+					<div class="container">
+						<div class="testimonial__inner">
+							<h2 class="testimonial__title">Благодарство:</h2>
+							<p class="testimonial__text">
+								"Специалисты провели тщательную экспертизу нашего проекта и предоставили исчерпывающие
+								рекомендации. Высокий уровень профессионализма, внимательность к деталям и оперативность — это
+								то, что делает эту компанию лучшим выбором для экспертиз и консультаций. Мы смогли улучшить
+								наши процессы благодаря их поддержке."
+							</p>
+							<div class="testimonial__author">
+								<div class="quote__bottom">
+									<div class="quote__author author">
+										<img src="./img/quote/author.png" alt="Алексей П., руководитель отдела IT" />
+										<div class="author__content">
+											<h3 class="author__name">Алексей П., руководитель отдела IT</h3>
+											<p class="author__work">Компания "ИнфоТех"</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="work-us" style="background-image: url(./img/bg/bg-grey-pixel.png)">
+					<div class="black-bg" style="background-image: url(./img/bg/work-bg.png)">
+						<div class="container">
+							<div class="work-us__inner">
+								<h2 class="work-us__title">Готовый начать работать с нами?</h2>
+								<a class="work-us__link btn-filled-white" href="#!">
+									<span>Поехали</span>
+									<svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M5 12H19"
+											stroke="black"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+										<path
+											d="M12 5L19 12L12 19"
+											stroke="black"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer" style="background-image: url(./img/bg/bg-grey-pixel.png)">
+				<div class="container">
+					<div class="footer__inner">
+						<div class="footer__left">
+							<div class="footer__logo">
+								<a class="logo" href="#!">
+									<img src="./img/icon/logo-img.svg" alt="Bostim logo" />
+									<span>Logo</span>
+								</a>
+							</div>
+							<p class="footer__text">
+								Свяжитесь с нами удобным для вас способом — по телефону, электронной почте или через форму
+								обратной связи на сайте. Мы ответим на все ваши вопросы и подберем решение, которое поможет
+								вашему бизнесу достичь успеха.
+							</p>
+							<div class="footer__social">
+								<a href="#!">
+									<img src="./img/social/face.svg" alt="" />
+								</a>
+								<a href="#!">
+									<img src="./img/social/twiter.svg" alt="" />
+								</a>
+								<a href="#!">
+									<img src="./img/social/in.svg" alt="" />
+								</a>
+								<a href="#!">
+									<img src="./img/social/instagram.svg" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="footer__right">
+							<div class="footer__nav">
+								<h3 class="foooter__title">Навигация</h3>
+								<ul class="footer__list">
+									<li class="footer__item">
+										<a href="#!" class="footer__link">Портфолио</a>
+									</li>
+									<li class="footer__item">
+										<a href="#!" class="footer__link">Энергетика</a>
+									</li>
+									<li class="footer__item">
+										<a href="#!" class="footer__link">Обучения</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__nav">
+								<h3 class="foooter__title">Помощь</h3>
+								<ul class="footer__list">
+									<li class="footer__item">
+										<a href="#!" class="footer__link">FAQ</a>
+									</li>
+									<li class="footer__item">
+										<a href="#!" class="footer__link">Кейсы</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__nav">
+								<h3 class="foooter__title">Контакты</h3>
+								<ul class="footer__list">
+									<li class="footer__item">
+										<a href="tel:4065550120" class="footer__link footer__link-contact">
+											<img src="./img/icon/phone.svg" alt="" />
+											<span>(406) 555-0120</span>
+										</a>
+									</li>
+									<li class="footer__item">
+										<a href="mailto:hey@boostim.com" class="footer__link footer__link-contact">
+											<img src="./img/icon/mail.svg" alt="" />
+											<span>Hey@boostim.com</span>
+										</a>
+									</li>
+									<li class="footer__item">
+										<a href="#!" class="footer__link footer__link-contact">
+											<img src="./img/icon/location.svg" alt="" />
+											<span>2972 Westheimer Rd. Santa Ana, Illinois 85486</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="./js/hamburger.js"></script>
+		<script src="./js/swiper.js"></script>
+		<script src="./js/main.js"></script>
+	</body>
+</html>

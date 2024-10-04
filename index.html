@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bostim</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+		<link href="./css/hamburger.css" rel="stylesheet" />
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="container">
+					<div class="header__row">
+						<div class="header__logo">
+							<a class="logo" href="#!">
+								<img src="./img/icon/logo-img.svg" alt="Bostim logo" />
+								<span>Logo</span>
+							</a>
+						</div>
+						<div class="background"></div>
+						<div class="header__list nav">
+							<ul class="nav__list">
+								<li class="nav__item nav-item dropdown-menu-branch">
+									<a class="nav-item__link" href="#!" data-toggle="dropdown-menu">
+										Портфолио
+										<svg
+											width="20"
+											height="20"
+											viewBox="0 0 20 20"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M5 7.5L10 12.5L15 7.5"
+												stroke="black"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</a>
+									<ul class="nav-item__list dropdown-menu">
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Портфолио submenu 1</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Портфолио submenu 2</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Портфолио submenu 3</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Портфолио submenu 4</a>
+										</li>
+									</ul>
+								</li>
+								<li class="nav__item nav-item dropdown-menu-branch">
+									<a class="nav-item__link" href="#!" data-toggle="dropdown-menu">
+										Энергетика
+										<svg
+											width="20"
+											height="20"
+											viewBox="0 0 20 20"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M5 7.5L10 12.5L15 7.5"
+												stroke="black"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</a>
+									<ul class="nav-item__list"></ul>
+								</li>
+								<li class="nav__item nav-item dropdown-menu-branch">
+									<a class="nav-item__link" href="#!" data-toggle="dropdown-menu"
+										>Обучения
+										<svg
+											width="20"
+											height="20"
+											viewBox="0 0 20 20"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M5 7.5L10 12.5L15 7.5"
+												stroke="black"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</a>
+
+									<ul class="nav-item__list dropdown-menu">
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Обучения submenu 1</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Обучения submenu 2</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Обучения submenu 3</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Обучения submenu 4</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Обучения submenu 5</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Обучения submenu 6</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Обучения submenu 7</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Обучения submenu 8</a>
+										</li>
+										<li class="dropdown-menu__item">
+											<a class="dropdown-menu__link" href="#!">Обучения submenu 9</a>
+										</li>
+									</ul>
+								</li>
+								<li class="nav__item nav-item dropdown-menu-branch">
+									<a class="nav-item__link" href="#!" data-toggle="dropdown-menu"
+										>IT
+										<svg
+											width="20"
+											height="20"
+											viewBox="0 0 20 20"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M5 7.5L10 12.5L15 7.5"
+												stroke="black"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</a>
+									<ul class="nav-item__list"></ul>
+								</li>
+								<li class="nav__item nav-item dropdown-menu-branch">
+									<a class="nav-item__link" href="#!" data-toggle="dropdown-menu">Контакты</a>
+								</li>
+							</ul>
+						</div>
+						<div class="header__btns">
+							<a class="sign-in btn-border btn-all" href="#!">вход</a>
+							<a class="notification btn-all" href="#!">
+								<img src="./img/icon/notification.svg" alt="" />
+							</a>
+						</div>
+						<button class="hamburger hamburger--spin open-menu" type="button">
+							<span class="hamburger-box">
+								<span class="hamburger-inner"></span>
+							</span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="main">
+				<section class="hero section">
+					<div class="container">
+						<div class="hero__inner">
+							<div class="hero__row">
+								<!-- Заголовок -->
+								<h1 class="hero__title">
+									Профессиональный аудит и аутсорсинг для оптимизации вашего<br />
+									бизнеса
+								</h1>
+								<!-- Описание под заголовком -->
+								<p class="hero__description">Комплексные решения для энергетики, IT, права и обучения</p>
+								<!-- Ссылки на действия -->
+								<div class="hero__actions">
+									<a href="#more" class="hero-btn hero-btn-primary">
+										<span>Узнать подробнее</span>
+										<img src="./img/icon/arrow-right.svg" alt="Arrow right" />
+									</a>
+									<a href="#register" class="hero-btn btn-underline">Регистрация</a>
+								</div>
+								<!-- Текст внизу -->
+								<p class="hero__bottom-text">
+									консультации по вопросам<br />
+									энергетики и бизнеса
+								</p>
+							</div>
+							<div class="swiper-pagination hero-pagination"></div>
+						</div>
+					</div>
+					<!-- Слайдер -->
+					<div class="hero__slider swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div
+								class="hero__slide swiper-slide"
+								style="background-image: url('./img/bg/girl-screen.jpg')"
+							></div>
+							<div class="hero__slide swiper-slide" style="background-image: url('./img/bg/plane.jpg')"></div>
+							<div
+								class="hero__slide swiper-slide"
+								style="background-image: url('./img/bg/girl-screen.jpg')"
+							></div>
+							<div class="hero__slide swiper-slide" style="background-image: url('./img/bg/plane.jpg')"></div>
+							<div
+								class="hero__slide swiper-slide"
+								style="background-image: url('./img/bg/girl-screen.jpg')"
+							></div>
+						</div>
+					</div>
+				</section>
+				<section class="about section" style="background-image: url(./img/bg/bg-grey-pixel.png)">
+					<div class="container">
+						<div class="about__row">
+							<div class="about__top">
+								<h2 class="about__title">О нас:</h2>
+								<p class="about__description">
+									<span>Наша компания</span> — лидер в предоставлении профессиональных услуг в таких ключевых
+									отраслях, как энергетический аудит, экспертиза, обучение, IT и юридические услуги. Мы
+									специализируемся на комплексных решениях, которые помогают бизнесам и организациям достигать
+									максимальной эффективности, соответствовать нормативным требованиям и внедрять инновационные
+									подходы.
+								</p>
+							</div>
+							<div class="about__bottom">
+								<div class="portfolio">
+									<div class="portfolio__content">
+										<h3>120<span>+</span></h3>
+										<p>Проекты который мы реализовали</p>
+									</div>
+									<div class="portfolio__images">
+										<img src="./img/about/bi.png" alt="Bostim our project" />
+										<img src="./img/about/pee.png" alt="Bostim our project" />
+										<img src="./img/about/kaspi.png" alt="Bostim our project" />
+										<img src="./img/about/ap.png" alt="Bostim our project" />
+										<button class="portfolio__btn">+</button>
+									</div>
+								</div>
+								<div class="video">
+									<div class="video__text">Видео про нас</div>
+									<button class="video__btn">
+										<img src="./img/icon/play.svg" alt="" />
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="case section" style="background-image: url(./img/bg/bg-grey-pixel.png)">
+					<div class="black-bg" style="background-image: url(./img/bg/bg-blackwhte.png)">
+						<div class="container">
+							<div class="case__inner">
+								<h2 class="case__title">
+									Тут вы можете увидеть наши кейсы<br />
+									до сегодняшнего дня:
+								</h2>
+								<div class="case__btns">
+									<button class="case__btn other-directions" data-slide="0">Другие направления</button>
+									<button class="case__btn case__btn-active it-services" data-slide="1">IT-услуги</button>
+									<button class="case__btn training" data-slide="2">Обучение и развитие</button>
+									<button class="case__btn legal" data-slide="3">Юридические услуги</button>
+								</div>
+								<div class="case__slider case-slider">
+									<div class="case-slider__items swiper-wrapper">
+										<div class="case-slider__item swiper-slide" data-slide="0">
+											<div class="case-slider__item-top">
+												<svg
+													width="54"
+													height="1"
+													viewBox="0 0 54 1"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path d="M0 0.5H54" stroke="black" />
+												</svg>
+
+												<span>АО «ЦАЭК»</span>
+											</div>
+											<div class="case-slider__item-img">
+												<img src="./img/case/kz-oil-mini.png" alt="" />
+											</div>
+											<div class="case-slider__item-bottom">
+												компания по производству, передаче,<br />
+												распределению и реализации электрической и тепловой энергии направления
+											</div>
+										</div>
+										<div class="case-slider__item swiper-slide" data-slide="0">
+											<div class="case-slider__item-top">
+												<svg
+													width="54"
+													height="1"
+													viewBox="0 0 54 1"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path d="M0 0.5H54" stroke="black" />
+												</svg>
+
+												<span>АО «ЦАЭК»</span>
+											</div>
+											<div class="case-slider__item-img">
+												<img src="./img/case/kz-oil-mini.png" alt="" />
+											</div>
+											<div class="case-slider__item-bottom">
+												компания по производству, передаче,<br />
+												распределению и реализации электрической и тепловой энергии направления
+											</div>
+										</div>
+										<div class="case-slider__item swiper-slide" data-slide="1">
+											<div class="case-slider__item-top">
+												<svg
+													width="54"
+													height="1"
+													viewBox="0 0 54 1"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path d="M0 0.5H54" stroke="black" />
+												</svg>
+
+												<span>АО «ЦАЭК»</span>
+											</div>
+											<div class="case-slider__item-img">
+												<img src="./img/case/kz-oil-mini.png" alt="" />
+											</div>
+											<div class="case-slider__item-bottom">
+												компания по производству, передаче,<br />
+												распределению и реализации электрической и тепловой энергии IT
+											</div>
+										</div>
+										<div class="case-slider__item swiper-slide" data-slide="1">
+											<div class="case-slider__item-top">
+												<svg
+													width="54"
+													height="1"
+													viewBox="0 0 54 1"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path d="M0 0.5H54" stroke="black" />
+												</svg>
+
+												<span>АО «ЦАЭК»</span>
+											</div>
+											<div class="case-slider__item-img">
+												<img src="./img/case/kz-oil-mini.png" alt="" />
+											</div>
+											<div class="case-slider__item-bottom">
+												компания по производству, передаче,<br />
+												распределению и реализации электрической и тепловой энергии IT
+											</div>
+										</div>
+										<div class="case-slider__item swiper-slide" data-slide="2">
+											<div class="case-slider__item-top">
+												<svg
+													width="54"
+													height="1"
+													viewBox="0 0 54 1"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path d="M0 0.5H54" stroke="black" />
+												</svg>
+
+												<span>АО «ЦАЭК»</span>
+											</div>
+											<div class="case-slider__item-img">
+												<img src="./img/case/kz-oil-mini.png" alt="" />
+											</div>
+											<div class="case-slider__item-bottom">
+												компания по производству, передаче,<br />
+												распределению и реализации электрической и тепловой энергии Обучение
+											</div>
+										</div>
+										<div class="case-slider__item swiper-slide" data-slide="2">
+											<div class="case-slider__item-top">
+												<svg
+													width="54"
+													height="1"
+													viewBox="0 0 54 1"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path d="M0 0.5H54" stroke="black" />
+												</svg>
+
+												<span>АО «ЦАЭК»</span>
+											</div>
+											<div class="case-slider__item-img">
+												<img src="./img/case/kz-oil-mini.png" alt="" />
+											</div>
+											<div class="case-slider__item-bottom">
+												компания по производству, передаче,<br />
+												распределению и реализации электрической и тепловой энергии Обучение
+											</div>
+										</div>
+										<div class="case-slider__item swiper-slide" data-slide="3">
+											<div class="case-slider__item-top">
+												<svg
+													width="54"
+													height="1"
+													viewBox="0 0 54 1"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path d="M0 0.5H54" stroke="black" />
+												</svg>
+
+												<span>АО «ЦАЭК»</span>
+											</div>
+											<div class="case-slider__item-img">
+												<img src="./img/case/kz-oil-mini.png" alt="" />
+											</div>
+											<div class="case-slider__item-bottom">
+												компания по производству, передаче,<br />
+												распределению и реализации электрической и тепловой энергии Юридические
+											</div>
+										</div>
+										<div class="case-slider__item swiper-slide" data-slide="3">
+											<div class="case-slider__item-top">
+												<svg
+													width="54"
+													height="1"
+													viewBox="0 0 54 1"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path d="M0 0.5H54" stroke="black" />
+												</svg>
+
+												<span>АО «ЦАЭК»</span>
+											</div>
+											<div class="case-slider__item-img">
+												<img src="./img/case/kz-oil-mini.png" alt="" />
+											</div>
+											<div class="case-slider__item-bottom">
+												компания по производству, передаче,<br />
+												распределению и реализации электрической и тепловой энергии Юридические
+											</div>
+										</div>
+										<div class="case-slider__item swiper-slide" data-slide="0">
+											<div class="case-slider__item-top">
+												<svg
+													width="54"
+													height="1"
+													viewBox="0 0 54 1"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path d="M0 0.5H54" stroke="black" />
+												</svg>
+
+												<span>АО «ЦАЭК»</span>
+											</div>
+											<div class="case-slider__item-img">
+												<img src="./img/case/kz-oil-mini.png" alt="" />
+											</div>
+											<div class="case-slider__item-bottom">
+												компания по производству, передаче,<br />
+												распределению и реализации электрической и тепловой энергии направления
+											</div>
+										</div>
+										<div class="case-slider__item swiper-slide" data-slide="0">
+											<div class="case-slider__item-top">
+												<svg
+													width="54"
+													height="1"
+													viewBox="0 0 54 1"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path d="M0 0.5H54" stroke="black" />
+												</svg>
+
+												<span>АО «ЦАЭК»</span>
+											</div>
+											<div class="case-slider__item-img">
+												<img src="./img/case/kz-oil-mini.png" alt="" />
+											</div>
+											<div class="case-slider__item-bottom">
+												компания по производству, передаче,<br />
+												распределению и реализации электрической и тепловой энергии направления
+											</div>
+										</div>
+										<div class="case-slider__item swiper-slide" data-slide="1">
+											<div class="case-slider__item-top">
+												<svg
+													width="54"
+													height="1"
+													viewBox="0 0 54 1"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path d="M0 0.5H54" stroke="black" />
+												</svg>
+
+												<span>АО «ЦАЭК»</span>
+											</div>
+											<div class="case-slider__item-img">
+												<img src="./img/case/kz-oil-mini.png" alt="" />
+											</div>
+											<div class="case-slider__item-bottom">
+												компания по производству, передаче,<br />
+												распределению и реализации электрической и тепловой энергии IT
+											</div>
+										</div>
+										<div class="case-slider__item swiper-slide" data-slide="1">
+											<div class="case-slider__item-top">
+												<svg
+													width="54"
+													height="1"
+													viewBox="0 0 54 1"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path d="M0 0.5H54" stroke="black" />
+												</svg>
+
+												<span>АО «ЦАЭК»</span>
+											</div>
+											<div class="case-slider__item-img">
+												<img src="./img/case/kz-oil-mini.png" alt="" />
+											</div>
+											<div class="case-slider__item-bottom">
+												компания по производству, передаче,<br />
+												распределению и реализации электрической и тепловой энергии IT
+											</div>
+										</div>
+										<div class="case-slider__item swiper-slide" data-slide="2">
+											<div class="case-slider__item-top">
+												<svg
+													width="54"
+													height="1"
+													viewBox="0 0 54 1"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path d="M0 0.5H54" stroke="black" />
+												</svg>
+
+												<span>АО «ЦАЭК»</span>
+											</div>
+											<div class="case-slider__item-img">
+												<img src="./img/case/kz-oil-mini.png" alt="" />
+											</div>
+											<div class="case-slider__item-bottom">
+												компания по производству, передаче,<br />
+												распределению и реализации электрической и тепловой энергии Обучение
+											</div>
+										</div>
+										<div class="case-slider__item swiper-slide" data-slide="2">
+											<div class="case-slider__item-top">
+												<svg
+													width="54"
+													height="1"
+													viewBox="0 0 54 1"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path d="M0 0.5H54" stroke="black" />
+												</svg>
+
+												<span>АО «ЦАЭК»</span>
+											</div>
+											<div class="case-slider__item-img">
+												<img src="./img/case/kz-oil-mini.png" alt="" />
+											</div>
+											<div class="case-slider__item-bottom">
+												компания по производству, передаче,<br />
+												распределению и реализации электрической и тепловой энергии Обучение
+											</div>
+										</div>
+										<div class="case-slider__item swiper-slide" data-slide="3">
+											<div class="case-slider__item-top">
+												<svg
+													width="54"
+													height="1"
+													viewBox="0 0 54 1"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path d="M0 0.5H54" stroke="black" />
+												</svg>
+
+												<span>АО «ЦАЭК»</span>
+											</div>
+											<div class="case-slider__item-img">
+												<img src="./img/case/kz-oil-mini.png" alt="" />
+											</div>
+											<div class="case-slider__item-bottom">
+												компания по производству, передаче,<br />
+												распределению и реализации электрической и тепловой энергии Юридические
+											</div>
+										</div>
+										<div class="case-slider__item swiper-slide" data-slide="3">
+											<div class="case-slider__item-top">
+												<svg
+													width="54"
+													height="1"
+													viewBox="0 0 54 1"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path d="M0 0.5H54" stroke="black" />
+												</svg>
+
+												<span>АО «ЦАЭК»</span>
+											</div>
+											<div class="case-slider__item-img">
+												<img src="./img/case/kz-oil-mini.png" alt="" />
+											</div>
+											<div class="case-slider__item-bottom">
+												компания по производству, передаче,<br />
+												распределению и реализации электрической и тепловой энергии Юридические
+											</div>
+										</div>
+									</div>
+									<div class="case-slider__btns">
+										<button class="case-slider__btn prev">
+											<svg
+												width="51"
+												height="50"
+												viewBox="0 0 51 50"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M35.5352 37.5L23.0352 25L35.5352 12.5L33.0352 7.49997L15.5352 25L33.0352 42.5L35.5352 37.5Z"
+													fill="white"
+												/>
+											</svg>
+										</button>
+										<button class="case-slider__btn next">
+											<svg
+												width="51"
+												height="50"
+												viewBox="0 0 51 50"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M15.4649 37.5L27.9649 25L15.4649 12.5L17.9649 7.49997L35.4649 25L17.9649 42.5L15.4649 37.5Z"
+													fill="white"
+												/>
+											</svg>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="quote" style="background-image: url(./img/bg/bg-grey-pixel.png)">
+					<div class="container">
+						<div class="quote__inner">
+							<div class="swiper quote__swiper quote-swiper">
+								<div class="quote__items swiper-wrapper">
+									<p class="quote__text swiper-slide">
+										"Специалисты провели тщательную экспертизу нашего проекта и предоставили исчерпывающие
+										рекомендации. Высокий уровень профессионализма,<br />
+										внимательность к деталям и оперативность — это то, что делает эту компанию<br />
+										лучшим выбором для экспертиз и консультаций. Мы смогли улучшить наши процессы благодаря их
+										поддержке."
+									</p>
+									<p class="quote__text swiper-slide">
+										"Далеко-далеко за, словесными горами в стране гласных и согласных живут рыбные тексты.
+										Имени переписывается однажды дорогу лучше?"
+									</p>
+									<p class="quote__text swiper-slide">
+										"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eius molestias eaque!
+										Blanditiis illo illum distinctio reiciendis aliquid dolores molestias ipsum temporibus
+										iste! Tempora, voluptas?"
+									</p>
+									<p class="quote__text swiper-slide">
+										Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis optio sit cumque omnis
+										tempora incidunt maiores excepturi quas doloremque, nihil vero, recusandae facere rerum.
+										Aperiam cumque, eius iusto dicta modi quae nemo vitae quisquam nesciunt fugit error
+										explicabo nobis sapiente ipsum unde laborum assumenda necessitatibus atque.
+									</p>
+									<p class="quote__text swiper-slide">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas incidunt, ipsam ut
+										veritatis laboriosam illum eligendi quae dolorem labore veniam, suscipit repellendus
+										dignissimos praesentium mollitia nam harum nostrum provident quidem amet quas! Dignissimos
+									</p>
+								</div>
+							</div>
+							<div class="quote__bottom">
+								<div class="quote__author author">
+									<img src="./img/quote/author.png" alt="Алексей П., руководитель отдела IT" />
+									<div class="author__content">
+										<h3 class="author__name">Алексей П., руководитель отдела IT</h3>
+										<p class="author__work">Компания "ИнфоТех"</p>
+									</div>
+								</div>
+								<div class="quote__slider-btns">
+									<button class="btn-prev btn-outline btn-hover">
+										<svg
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M19 12H5"
+												stroke="black"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+											<path
+												d="M12 5L5 12L12 19"
+												stroke="black"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</button>
+									<div class="swiper-pagination-quote"></div>
+									<button class="btn-next btn-filled btn-hover">
+										<svg
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M5 12H19"
+												stroke="white"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+											<path
+												d="M12 5L19 12L12 19"
+												stroke="white"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="services section" style="background-image: url(./img/bg/bg-grey-pixel.png)">
+					<div class="container">
+						<div class="services__inner">
+							<div class="services__top">
+								<h2 class="services__title">Наши услуги:</h2>
+								<div class="services__box">
+									<p class="services__text">
+										Если вам нужна помощь консультанта или у вас возникли вопросы, наша команда всегда готова
+										помочь. Мы предлагаем квалифицированные консультации по всем направлениям нашей
+										деятельности: от энергетического аудита и экспертизы до IT-услуг и юридической поддержки.
+									</p>
+									<a class="services__link btn-outline" href="#!">Связаться с консультантом</a>
+								</div>
+							</div>
+							<div class="services__bottom">
+								<div class="services__items">
+									<div class="services__item">
+										<div class="oval first"></div>
+										<h3 class="services__item-title">Энергетический аудит</h3>
+										<div class="services__item-footer">
+											<p>Оценка энергопотребления и внедрение решений для повышения энергоэффективности.</p>
+											<a class="btn-filled" href="#!">
+												<svg
+													width="25"
+													height="25"
+													viewBox="0 0 25 25"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M5.6665 12.3572H19.6665"
+														stroke="black"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+													<path
+														d="M12.6665 5.35718L19.6665 12.3572L12.6665 19.3572"
+														stroke="black"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+												</svg>
+											</a>
+										</div>
+									</div>
+									<div class="services__item">
+										<div class="oval second"></div>
+										<h3 class="services__item-title">Экспертиза и консультации</h3>
+										<div class="services__item-footer">
+											<p>Комплексная экспертиза проектов и консультации по вопросам энергетики и бизнеса.</p>
+											<a class="btn-outline" href="#!">
+												<svg
+													width="25"
+													height="25"
+													viewBox="0 0 25 25"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M5.6665 12.3572H19.6665"
+														stroke="black"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+													<path
+														d="M12.6665 5.35718L19.6665 12.3572L12.6665 19.3572"
+														stroke="black"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+												</svg>
+											</a>
+										</div>
+									</div>
+									<div class="services__item">
+										<div class="oval three"></div>
+										<h3 class="services__item-title">Юридические услуги</h3>
+										<div class="services__item-footer">
+											<p>
+												Инновационные решения в области информационных технологий для оптимизации бизнеса.
+											</p>
+											<a class="btn-outline" href="#!">
+												<svg
+													width="25"
+													height="25"
+													viewBox="0 0 25 25"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M5.6665 12.3572H19.6665"
+														stroke="black"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+													<path
+														d="M12.6665 5.35718L19.6665 12.3572L12.6665 19.3572"
+														stroke="black"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+												</svg>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="questions section">
+					<div class="container">
+						<div class="questions__inner">
+							<div class="questions__left">
+								<h2 class="questions__title">Часто задаваемые вопросы:</h2>
+								<p class="questions__subtitle">
+									Мы ответим на ваши вопросы: здесь вы найдете ответы на самые распространенные вопросы о
+									наших услугах по аудиту, экспертизе, обучению, IT и юридическим направлениям.
+								</p>
+								<a class="questions__link btn-outline" href="#!">У меня другой вопрос</a>
+							</div>
+							<div class="questions__right">
+								<div class="questions__items">
+									<div class="questions__item">
+										<div class="questions__head">
+											<h4>Какие виды экспертизы вы проводите?</h4>
+											<span class="toggle-icon">
+												<svg
+													class="icon-plus"
+													width="24"
+													height="25"
+													viewBox="0 0 24 25"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M12 5.57153V19.5715"
+														stroke="black"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+													<path
+														d="M5 12.5715H19"
+														stroke="black"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+												</svg>
+
+												<svg
+													class="icon-minus"
+													width="24"
+													height="25"
+													viewBox="0 0 24 25"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M5 12.5715H19"
+														stroke="black"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+												</svg>
+											</span>
+										</div>
+										<div class="questions__content">
+											Мы проводим комплексную экспертизу в областях энергетики, IT, права и других. Это
+											включает технические, финансовые и правовые консультации для оптимизации вашего бизнеса
+											и минимизации рисков.
+										</div>
+									</div>
+									<div class="questions__item">
+										<div class="questions__head">
+											<h4>Вы оказываете юридическое сопровождение сделок?</h4>
+											<span class="toggle-icon">
+												<svg
+													class="icon-plus"
+													width="24"
+													height="25"
+													viewBox="0 0 24 25"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M12 5.57153V19.5715"
+														stroke="black"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+													<path
+														d="M5 12.5715H19"
+														stroke="black"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+												</svg>
+
+												<svg
+													class="icon-minus"
+													width="24"
+													height="25"
+													viewBox="0 0 24 25"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M5 12.5715H19"
+														stroke="black"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+												</svg>
+											</span>
+										</div>
+										<div class="questions__content">
+											Мы проводим комплексную экспертизу в областях энергетики, IT, права и других. Это
+											включает технические, финансовые и правовые консультации для оптимизации вашего бизнеса
+											и минимизации рисков.
+										</div>
+									</div>
+									<div class="questions__item">
+										<div class="questions__head">
+											<h4>Как долго занимает проведение энергетического аудита?</h4>
+											<span class="toggle-icon">
+												<svg
+													class="icon-plus"
+													width="24"
+													height="25"
+													viewBox="0 0 24 25"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M12 5.57153V19.5715"
+														stroke="black"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+													<path
+														d="M5 12.5715H19"
+														stroke="black"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+												</svg>
+
+												<svg
+													class="icon-minus"
+													width="24"
+													height="25"
+													viewBox="0 0 24 25"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M5 12.5715H19"
+														stroke="black"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+												</svg>
+											</span>
+										</div>
+										<div class="questions__content">
+											Мы проводим комплексную экспертизу в областях энергетики, IT, права и других. Это
+											включает технические, финансовые и правовые консультации для оптимизации вашего бизнеса
+											и минимизации рисков.
+										</div>
+									</div>
+									<div class="questions__item">
+										<div class="questions__head">
+											<h4>Какие курсы и тренинги вы предлагаете?</h4>
+											<span class="toggle-icon">
+												<svg
+													class="icon-plus"
+													width="24"
+													height="25"
+													viewBox="0 0 24 25"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M12 5.57153V19.5715"
+														stroke="black"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+													<path
+														d="M5 12.5715H19"
+														stroke="black"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+												</svg>
+
+												<svg
+													class="icon-minus"
+													width="24"
+													height="25"
+													viewBox="0 0 24 25"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M5 12.5715H19"
+														stroke="black"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+												</svg>
+											</span>
+										</div>
+										<div class="questions__content">
+											Мы проводим комплексную экспертизу в областях энергетики, IT, права и других. Это
+											включает технические, финансовые и правовые консультации для оптимизации вашего бизнеса
+											и минимизации рисков.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="news section">
+					<div class="container">
+						<div class="news__inner">
+							<h2 class="news__title">Новости</h2>
+							<ul class="news__list">
+								<li class="news__item">
+									<a class="news__link" href="#!">
+										<img class="news__img" src="./img/news/1.png" alt="Энергетический аудит bostim" />
+										<div class="news__date">
+											<span>Август 20</span>
+											<svg
+												width="7"
+												height="7"
+												viewBox="0 0 7 7"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="3.29311" cy="3.26589" r="3.04885" fill="#0166FC" />
+											</svg>
+										</div>
+										<p class="news__text">Энергетический аудит помог снизить затраты компании на 20%</p>
+									</a>
+								</li>
+								<li class="news__item">
+									<a class="news__link" href="#!">
+										<img
+											class="news__img"
+											src="./img/news/2.png"
+											alt="Запуск нового курса по IT-безопасности для корпоративных клиентов"
+										/>
+										<div class="news__date">
+											<span>Август 29</span>
+											<svg
+												width="7"
+												height="7"
+												viewBox="0 0 7 7"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="3.29311" cy="3.26589" r="3.04885" fill="#0166FC" />
+											</svg>
+										</div>
+										<p class="news__text">
+											Запуск нового курса по IT-безопасности для корпоративных клиентов
+										</p>
+									</a>
+								</li>
+								<li class="news__item">
+									<a class="news__link" href="#!">
+										<img class="news__img" src="./img/news/3.png" alt="партнерство bostim" />
+										<div class="news__date">
+											<span>Сентябрь 15</span>
+											<svg
+												width="7"
+												height="7"
+												viewBox="0 0 7 7"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle cx="3.29311" cy="3.26589" r="3.04885" fill="#0166FC" />
+											</svg>
+										</div>
+										<p class="news__text">Новое партнерство с юридической фирмой для расширения услуг</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<div class="work-us" style="background-image: url(./img/bg/bg-grey-pixel.png)">
+					<div class="black-bg" style="background-image: url(./img/bg/work-bg.png)">
+						<div class="container">
+							<div class="work-us__inner">
+								<h2 class="work-us__title">Готовый начать работать с нами?</h2>
+								<a class="work-us__link btn-filled-white" href="#!">
+									<span>Поехали</span>
+									<svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M5 12H19"
+											stroke="black"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+										<path
+											d="M12 5L19 12L12 19"
+											stroke="black"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer" style="background-image: url(./img/bg/bg-grey-pixel.png)">
+				<div class="container">
+					<div class="footer__inner">
+						<div class="footer__left">
+							<div class="footer__logo">
+								<a class="logo" href="#!">
+									<img src="./img/icon/logo-img.svg" alt="Bostim logo" />
+									<span>Logo</span>
+								</a>
+							</div>
+							<p class="footer__text">
+								Свяжитесь с нами удобным для вас способом — по телефону, электронной почте или через форму
+								обратной связи на сайте. Мы ответим на все ваши вопросы и подберем решение, которое поможет
+								вашему бизнесу достичь успеха.
+							</p>
+							<div class="footer__social">
+								<a href="#!">
+									<img src="./img/social/face.svg" alt="" />
+								</a>
+								<a href="#!">
+									<img src="./img/social/twiter.svg" alt="" />
+								</a>
+								<a href="#!">
+									<img src="./img/social/in.svg" alt="" />
+								</a>
+								<a href="#!">
+									<img src="./img/social/instagram.svg" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="footer__right">
+							<div class="footer__nav">
+								<h3 class="foooter__title">Навигация</h3>
+								<ul class="footer__list">
+									<li class="footer__item">
+										<a href="#!" class="footer__link">Портфолио</a>
+									</li>
+									<li class="footer__item">
+										<a href="#!" class="footer__link">Энергетика</a>
+									</li>
+									<li class="footer__item">
+										<a href="#!" class="footer__link">Обучения</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__nav">
+								<h3 class="foooter__title">Помощь</h3>
+								<ul class="footer__list">
+									<li class="footer__item">
+										<a href="#!" class="footer__link">FAQ</a>
+									</li>
+									<li class="footer__item">
+										<a href="#!" class="footer__link">Кейсы</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__nav">
+								<h3 class="foooter__title">Контакты</h3>
+								<ul class="footer__list">
+									<li class="footer__item">
+										<a href="tel:4065550120" class="footer__link footer__link-contact">
+											<img src="./img/icon/phone.svg" alt="" />
+											<span>(406) 555-0120</span>
+										</a>
+									</li>
+									<li class="footer__item">
+										<a href="mailto:hey@boostim.com" class="footer__link footer__link-contact">
+											<img src="./img/icon/mail.svg" alt="" />
+											<span>Hey@boostim.com</span>
+										</a>
+									</li>
+									<li class="footer__item">
+										<a href="#!" class="footer__link footer__link-contact">
+											<img src="./img/icon/location.svg" alt="" />
+											<span>2972 Westheimer Rd. Santa Ana, Illinois 85486</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="./js/swiper.js"></script>
+		<script src="./js/hamburger.js"></script>
+		<script src="./js/case.js"></script>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
