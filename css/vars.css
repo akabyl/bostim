@@ -1,0 +1,26 @@
+:root {
+  --main-family: 'Plus Jakarta Sans';
+
+
+
+
+
+
+
+  --text-color: #252525;
+  --nav-color: #020407;
+  --btn-color: #010205;
+  --bg-color: #010205;
+  --title-color: #010205;
+  --white-color: #fff;
+  --primary-color: #48C3EA;
+  --subtext-color: #878C91;
+  --grey-color: #787878;
+  --grey-color-opacity: 120, 120, 120;
+  --answer-color: #7E7F80;
+  --link-color: #0166FC;
+  --footer-color: #9B9B9C;
+  --footer-title-color: #192031;
+
+
+}

@@ -1,0 +1,56 @@
+/* Пагинация */
+.hero-pagination {
+	position: absolute;
+	left: unset;
+	right: 210px;
+	bottom: 104px;
+}
+.hero-pagination.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 8px;
+}
+
+.hero-pagination.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal.hero-pagination,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+	width: unset;
+	left: unset;
+}
+
+.hero-pagination > .swiper-pagination-bullet {
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 16px;
+	height: 16px;
+	opacity: 1;
+}
+
+.hero-pagination > .swiper-pagination-bullet-active {
+	background-color: #fff; /* Цвет активной точки */
+}
+
+.hero-pagination > .swiper-pagination-current {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 28.8px;
+	color: var(--btn-color);
+}
+.hero-pagination > .swiper-pagination-total {
+	font-size: 16px;
+	line-height: 28.8px;
+	font-weight: 600;
+	color: var(--btn-color);
+	opacity: 0.4;
+}
+
+
+.energo-pagination {
+	bottom: 62px !important;
+}
+.energo-pagination > .swiper-pagination-bullet {
+	width: 16px;
+	height: 16px;
+}
+.energo-pagination > .swiper-pagination-bullet-active {
+	background-color: #fff;
+}

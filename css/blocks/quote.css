@@ -1,0 +1,97 @@
+.quote {
+	padding: 52px 0 85px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.quote__inner {
+}
+.quote__items {
+	max-height: max-content;
+}
+.quote__text {
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 51px;
+	letter-spacing: -0.03em;
+	max-width: 1280px;
+	text-wrap: balance;
+}
+.quote__bottom {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	gap: 15px;
+}
+.quote__author {
+}
+.author {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+.author img {
+	max-width: 70px;
+	max-height: 70px;
+	width: 100%;
+}
+.author__content {
+}
+.author__name {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 36px;
+}
+.author__work {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 28.8px;
+	color: var(--subtext-color);
+}
+.quote__slider-btns {
+	display: flex;
+	align-items: center;
+	gap: 70px;
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+	.quote__text {
+		font-size: 20px;
+		line-height: 1.2;
+	}
+	.quote__slider-btns {
+		gap: 20px;
+	}
+	.author__name {
+		font-size: 18px;
+	}
+	.author {
+		gap: 15px;
+	}
+}
+@media (max-width: 768px) {
+	.quote {
+		padding: 40px 0 30px;
+	}
+	.quote__bottom {
+		flex-direction: column-reverse;
+		gap: 25px;
+		margin-top: 25px;
+	}
+}
+@media (max-width: 576px) {
+	.author__name {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+	.author img {
+		max-width: 55px;
+		max-height: 55px;
+	}
+	.author {
+		gap: 7px;
+	}
+}
+@media (max-width: 400px) {
+}

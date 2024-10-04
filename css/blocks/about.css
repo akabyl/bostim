@@ -1,0 +1,116 @@
+.about {
+	padding: 70px 0 55px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.about__row {
+}
+.about__top {
+	display: flex;
+	justify-content: space-between;
+	gap: 25px;
+	margin-bottom: 50px;
+}
+.about__title {
+	font-size: 80px;
+	font-weight: 600;
+	line-height: 1.3;
+	letter-spacing: -0.03em;
+	color: var(--title-color);
+}
+.about__description {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 28.44px;
+	text-align: left;
+	color: var(--text-color);
+	max-width: 809px;
+}
+.about__description span {
+	font-weight: 700;
+}
+.about__bottom {
+	display: flex;
+	justify-content: space-between;
+	gap: 25px;
+}
+.portfolio {
+	padding: 40px;
+	background-color: var(--bg-color);
+	border-radius: 30px;
+	overflow: hidden;
+	background-image: url(./../../img/about/bg-about.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.portfolio__content {
+	margin-bottom: 100px;
+}
+.portfolio__content h3 {
+	font-size: 84px;
+	font-weight: 700;
+	line-height: 1;
+	letter-spacing: -0.03em;
+	color: #fff;
+}
+.portfolio__content span {
+	font-size: 84px;
+	font-weight: 700;
+	line-height: 126px;
+	letter-spacing: -0.03em;
+	color: var(--primary-color);
+	line-height: 1;
+}
+.portfolio__content p {
+	font-size: 19px;
+	font-weight: 500;
+	line-height: 32.3px;
+	color: var(--subtext-color);
+}
+.portfolio__images {
+	display: flex;
+	align-items: center;
+	gap: 7px;
+}
+.portfolio__images img {
+	max-width: 70px;
+	max-height: 70px;
+}
+.portfolio__btn {
+	font-size: 74px;
+	font-weight: 700;
+	letter-spacing: -0.03em;
+	color: var(--white-color);
+}
+.video {
+	max-width: 818px;
+	width: 100%;
+	background-image: url(./../../img/about/video-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.video__text {
+	max-width: max-content;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 51px;
+	letter-spacing: 0.27em;
+	color: var(--grey-color);
+	margin-top: auto;
+	padding-bottom: 50px;
+	text-transform: uppercase;
+}
+.video__btn {
+	position: absolute;
+	bottom: -20px;
+	right: -20px;
+	max-width: 163px;
+	background-color: var(--primary-color);
+	border: 12px solid #fff;
+	border-radius: 1031.65px;
+  padding: 50px;
+}

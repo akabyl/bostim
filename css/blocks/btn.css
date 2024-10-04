@@ -1,0 +1,104 @@
+.btn-all {
+	font-family: 'Manrope';
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22.4px;
+	letter-spacing: -0.02em;
+	text-align: center;
+}
+
+.btn-border {
+}
+.sign-in {
+	color: var(--btn-color);
+	padding: 13px 59px;
+	max-width: 200px;
+	border: 1px solid var(--btn-color);
+	border-radius: 50px;
+}
+.notification {
+	padding: 13px;
+	border-radius: 50px;
+	background-color: var(--btn-color);
+	display: none;
+}
+
+.hero-btn {
+	font-family: var(--main-family);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22.4px;
+	letter-spacing: -0.02em;
+	color: var(--white-color);
+}
+.hero-btn-primary {
+	font-weight: 700;
+	padding: 16px 20px;
+	background-color: var(--btn-color);
+	color: var(--white-color);
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	border-radius: 70px;
+}
+
+.btn-underline {
+	text-decoration: underline;
+}
+
+.btn-outline {
+	border: 1px solid var(--btn-color);
+	border-radius: 70px;
+	padding: 16px 32px;
+	display: inline-block;
+	transition: transform 0.2s ease-in-out;
+}
+.btn-outline:hover {
+	transform: scale(1.1);
+}
+.btn-filled {
+	padding: 16px 32px;
+	background-color: var(--btn-color);
+	border-radius: 70px;
+	display: inline-block;
+	transition: transform 0.2s ease-in-out;
+}
+.btn-filled:hover {
+	transform: scale(1.1);
+}
+.btn-hover {
+	transition: transform 0.3s ease-in-out;
+}
+.btn-hover:active {
+	transform: scale(0.7);
+}
+.btn-filled svg {
+	path {
+		stroke: var(--white-color);
+	}
+}
+
+@media (max-width: 992px) {
+	.btn-outline {
+		padding: 12px 24px;
+	}
+	.btn-outline svg {
+		width: 20px;
+		height: 20px;
+	}
+	.btn-filled {
+		padding: 12px 24px;
+	}
+	.btn-filled svg {
+		width: 20px;
+		height: 20px;
+	}
+}
+@media (max-width: 400px) {
+	.btn-outline {
+		padding: 6px 16px;
+	}
+	.btn-filled {
+		padding: 6px 16px;
+	}
+}

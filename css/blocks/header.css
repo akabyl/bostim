@@ -1,0 +1,19 @@
+.header {
+}
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  column-gap: 25px;
+}
+.header__logo {
+}
+.header__list {
+}
+.header__btns {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+

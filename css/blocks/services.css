@@ -1,0 +1,138 @@
+.services {
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 70px 0 50px;
+}
+.services__inner {
+}
+.services__top {
+	display: flex;
+	justify-content: space-between;
+	gap: 15px;
+	margin-bottom: 55px;
+}
+.services__title {
+	font-size: 55px;
+	font-weight: 600;
+	line-height: 71px;
+	letter-spacing: -0.03em;
+	color: var(--title-color);
+	flex: 0 0 auto;
+}
+.services__box {
+	max-width: 840px;
+}
+.services__text {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 28px;
+	color: var(--subtext-color);
+	margin-bottom: 28px;
+}
+.services__link {
+	font-family: 'Manrope';
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22.4px;
+	letter-spacing: -0.02em;
+}
+
+.services__bottom {
+}
+.services__items {
+	display: flex;
+	gap: 24px;
+}
+.services__item {
+	display: flex;
+	flex-direction: column;
+	padding: 32px;
+	background-color: var(--white-color);
+}
+.oval {
+	margin-bottom: 24px;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.first {
+	background: #45a7de;
+}
+.services__item-title {
+	margin-bottom: 56px;
+	font-size: 26px;
+	font-weight: 500;
+	line-height: 39px;
+	letter-spacing: -0.03em;
+  text-align: center;
+}
+.services__item-footer {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+.services__item-footer p {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 22px;
+	max-width: 220px;
+  color: var(--subtext-color);
+}
+
+.second {
+	background-color: #ea5f38;
+}
+.three {
+	background-color: #6a26f1;
+}
+@media (max-width: 1200px) {
+	.services__items {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+
+@media (max-width: 768px) {
+	.services {
+		padding: 30px 0 40px;
+	}
+	.services__top {
+		flex-direction: column;
+		align-items: start;
+		gap: 10px;
+	}
+	.services__item-footer {
+		gap: 25px;
+	}
+
+}
+@media (max-width: 400px) {
+	.services__title {
+		font-size: 36px;
+		line-height: 1.3;
+	}
+	.services__text {
+		font-size: 14px;
+		line-height: 1.2;
+		margin-bottom: 15px;
+	}
+	.services__link {
+		font-size: 14px;
+	}
+	.services__item {
+		padding: 20px;
+	}
+	.services__item-title {
+		font-size: 20px;
+		line-height: 1.2;
+		margin-bottom: 25px;
+	}
+	.services__item-footer p {
+		line-height: 1.2;
+	}
+	.services__item-footer {
+		gap: 5px;
+	}
+}

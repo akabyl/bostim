@@ -1,0 +1,141 @@
+.form-wrapper {
+	background: linear-gradient(310deg, #48c3ea 0%, #117a9b 100%);
+	background-size: cover; /* Фон растягивается по контейнеру */
+	background-repeat: no-repeat; /* Отключаем повторение */
+	background-position: center; /* Позиционируем фон по центру */
+	width: 100%;
+	height: auto;
+	position: relative;
+	max-width: 571px;
+	padding: 42px 50px 55px;
+	border-radius: 20px;
+}
+.form__title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.26;
+	text-wrap: balance;
+	color: #fff;
+	margin-bottom: 40px;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+.form-registration {
+}
+.form-sign {
+}
+.form-sign__block {
+	display: flex;
+	justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.form-sign__block > .form__label {
+  margin-bottom: 0;
+}
+.remember {
+	text-decoration: underline;
+	font-size: 16px;
+	line-height: 1.3;
+	color: #fff;
+}
+.form__input {
+	margin-bottom: 20px;
+}
+.form__label {
+	color: #fff;
+	font-family: 'Public Sans';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.1;
+	margin-left: 19px;
+	margin-bottom: 10px;
+}
+.form-field {
+	max-width: 470px;
+	width: 100%;
+	padding: 15px 20px;
+	color: #fff;
+	background-image: url(./../../img/bg/input-bg.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+.form-field::placeholder {
+	font-family: 'Public Sans';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.175;
+	color: #fff;
+}
+.input-name {
+}
+.input-tel {
+}
+.form__textarea {
+	resize: none;
+	min-height: 120px;
+	margin-bottom: 20px;
+}
+.form__btn {
+	font-family: 'Nunito Sans';
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 1.36;
+	background-color: #fff;
+	color: #1b1d21;
+	padding: 19px 50px;
+	border-radius: 50px;
+}
+.form-text {
+	font-family: 'Titillium Web';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.3;
+	color: #fff;
+	max-width: 451px;
+	text-wrap: balance;
+	margin-bottom: 30px;
+}
+
+.form-sign__text {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.3;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+	.form-wrapper {
+		padding: 30px 35px 40px;
+	}
+	.form__title {
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+	.form__btn {
+		font-size: 16px;
+		padding: 12px 30px;
+		line-height: 1.1;
+	}
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+	.form-wrapper {
+		padding: 25px 20px 30px;
+	}
+	.form__title {
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+}

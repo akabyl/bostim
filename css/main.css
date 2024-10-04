@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Poppins:500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,700);
+@import url(https://fonts.googleapis.com/css?family=Manrope:700);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:regular,700);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:800);
+/* --------------------------------  Global style            -------------------------------------*/
+@import './vars.css';             
+@import './style.css';             
+
+/* --------------------------------  Block style            -------------------------------------*/
+
+@import './blocks/header.css'; /* HEADER CSS*/
+@import './blocks/nav.css';    /* NAV CSS*/
+@import './blocks/btn.css';    /* BTN CSS*/
+
+@import './swiper.css'; /* HEADER CSS*/
+/* --------------------------------  Section style            -------------------------------------*/
+
+@import './blocks/hero.css';    /* HERO CSS*/
+@import './blocks/about.css';    /* ABOUT CSS*/
+@import './blocks/case.css';    /* CASE CSS*/
+@import './blocks/quote.css';    /* QUOTE CSS*/
+@import './blocks/services.css';    /* SERVICES CSS*/
+@import './blocks/questions.css';    /* QUESTIONS CSS*/
+@import './blocks/news.css';    /* NEWS CSS*/
+@import './blocks/company.css';    /* COMPANY CSS*/
+@import './blocks/process.css';    /* PROCESS CSS*/
+@import './blocks/testimonial.css';    /* TESTIMONIAL CSS*/
+@import './blocks/work-us.css';    /* WORK CSS*/
+@import './blocks/page-head.css';    /* PAGE-HEAD CSS*/
+@import './blocks/result.css';    /* RESULT CSS*/
+@import './blocks/main-block.css';    /* MAIN-BLOCK CSS*/
+@import './blocks/execution.css';    /* EXECUTION CSS*/
+@import './blocks/audit.css';    /* AUDIT CSS*/
+@import './blocks/advisory.css';    /* ADVISORY CSS*/
+@import './blocks/masonry.css';    /* MASONRY CSS*/
+@import './blocks/page-form.css';    /* PAGE-FORM CSS*/
+@import './blocks/form.css';    /* FORM CSS*/
+@import './blocks/footer.css';    /* FOOTER CSS*/
+
+
+/* --------------------------------  MEDIA WIDTH MOBILE style            -------------------------------------*/
+
+@import './blocks/media.css';    /* FOOTER CSS*/
+

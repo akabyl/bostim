@@ -1,0 +1,259 @@
+.case {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.black-bg {
+	max-width: 1408px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #020609;
+	backdrop-filter: blur(64px);
+	border-radius: 30px;
+	padding: 52px 64px 102px;
+	overflow-x: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.case__inner {
+}
+.case__title {
+	font-size: 48px;
+	font-weight: 500;
+	line-height: 62.4px;
+	letter-spacing: -0.03em;
+	text-align: center;
+	color: var(--white-color);
+	text-wrap: balance;
+	margin-bottom: 50px;
+}
+.case__btns {
+	margin-bottom: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+}
+.case__btn {
+	color: var(--white-color);
+	font-family: 'Manrope';
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22.4px;
+	letter-spacing: -0.02em;
+	padding: 13px 37px;
+	border: 1px solid var(--white-color);
+	border-radius: 50px;
+	transition: all 0.2s ease-in;
+}
+.case__btn:hover {
+	opacity: 0.9;
+}
+.other-directions {
+}
+.case__btn-active {
+	color: var(--btn-color);
+	background-color: var(--primary-color);
+	border-color: var(--primary-color);
+}
+.it-services {
+}
+.training {
+}
+.legal {
+}
+.case__slider {
+}
+.case-slider {
+	position: relative;
+	max-width: 1250px;
+}
+.case-slider__items {
+	display: flex;
+	gap: 70px;
+	/* transform: translate3d(0px, 0px, 0px) !important; */
+}
+.case-slider__item {
+	max-width: 480px;
+	width: 100%;
+	border: 10px solid #4d4d50;
+	background-color: var(--white-color);
+	border-radius: 30px;
+	padding: 32px;
+}
+.case-slider__item-top {
+	display: flex;
+	align-items: center;
+	gap: 13px;
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 21.42px;
+	letter-spacing: -0.03em;
+	color: #090909;
+	margin-bottom: 30px;
+}
+.case-slider__item-top span {
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 21px;
+	letter-spacing: -0.03em;
+	text-align: left;
+	color: #090909;
+}
+.case-slider__item-bottom {
+	margin-top: 20px;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 21px;
+	max-width: 350px;
+	text-wrap: balance;
+	color: #090909;
+}
+
+.case-slider__btns {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	z-index: 4;
+}
+.case-slider__btn {
+	background-color: #070707;
+	padding: 17px;
+	border: 8px solid #fff;
+	border-radius: 50%;
+	transform: translateY(-50%);
+	transition: all 0.1s ease-in;
+}
+.case-slider__btn:active {
+	opacity: 0.5;
+}
+.prev {
+	position: absolute;
+	left: -50px;
+	z-index: 4;
+}
+.next {
+	position: absolute;
+	right: -50px;
+	z-index: 4;
+}
+
+@media (max-width: 1200px) {
+	.black-bg {
+		max-width: 1080px;
+		padding: 40px 50px 60px;
+	}
+	.case__title {
+		font-size: 36px;
+		line-height: 1.2;
+	}
+	.case__btns {
+		margin-bottom: 60px;
+	}
+	.case__btn {
+		padding: 10px 28px;
+		font-size: 14px;
+	}
+	.case-slider__items {
+		gap: 40px;
+	}
+	.case-slider__item {
+		max-width: 390px;
+	}
+	.case-slider__btn {
+		padding: 8px;
+	}
+	.case-slider__btn svg {
+		width: 40px;
+		height: 40px;
+	}
+	.prev {
+		left: -25px;
+	}
+	.next {
+		right: -25px;
+	}
+}
+@media (max-width: 992px) {
+	.case__btns {
+		gap: 12px;
+	}
+	.case__btn {
+		padding: 8px 20px;
+		font-size: 12px;
+	}
+	.next {
+		right: -50px;
+	}
+	.case-slider__item {
+		padding: 25px;
+	}
+	.case-slider__item-top span {
+		font-size: 14px;
+	}
+	.case-slider__item-bottom {
+		font-size: 14px;
+		line-height: 1.2;
+	}
+	.case-slider__items {
+		gap: 20px;
+	}
+	.case__btns {
+		margin-bottom: 35px;
+	}
+}
+@media (max-width: 768px) {
+	.case-slider__items {
+		gap: unset;
+	}
+	.case-slider__item-top svg {
+		max-width: 35px;
+	}
+
+	.case-slider__item {
+		padding: 25px 10px;
+		max-width: 100%;
+	}
+	.case__btns {
+		flex-wrap: wrap;
+	}
+	.black-bg {
+		padding: 40px 0 70px;
+	}
+
+	.case__btns {
+		margin-bottom: 25px;
+	}
+}
+@media (max-width: 576px) {
+	.prev {
+		left: -12px;
+	}
+	.next {
+		right: -12px;
+	}
+	.case-slider__btn svg {
+		width: 30px;
+		height: 30px;
+	}
+	.case-slider__btn {
+		padding: 6px;
+	}
+	.case__title {
+		font-size: 3px;
+	}
+}
+@media (max-width: 400px) {
+	.case__btns {
+		flex-direction: column;
+	}
+}
+
+.case-slider__item {
+	display: none;
+}
+
+.case-slider__item.active {
+	display: block;
+}

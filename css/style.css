@@ -1,0 +1,49 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: var(--main-family);
+	font-size: 14px;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.container {
+	max-width: 1310px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.container-fluid {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	column-gap: 8px;
+}
+.logo span {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32.78px;
+	letter-spacing: -0.05em;
+}
+.no-scroll {
+	overflow: hidden;
+}
+
+.section {
+}

@@ -1,0 +1,122 @@
+.process {
+	padding-bottom: 90px;
+}
+.process__inner {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	gap: 20px;
+}
+.process__tasks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 71px;
+}
+.process__tasks .process__content {
+	max-width: 467px;
+}
+.process__content {
+	max-width: 522px;
+}
+.process__title {
+	font-family: 'Titillium Web';
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.5;
+	color: #252924;
+	margin-bottom: 20px;
+}
+.process__content p {
+	font-size: 20px;
+	line-height: 1.25;
+	color: #656565;
+}
+.process__content p:not(:last-child) {
+	margin-bottom: 20px;
+}
+.process__image {
+	max-width: 583px;
+	width: 100%;
+	height: 100%;
+	flex: 0 0 auto;
+}
+.process__image img {
+	height: 437px;
+}
+.process__solution {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 71px;
+}
+.process__tasks .process__image {
+	border-radius: 45px 0 0 45px;
+	overflow: hidden;
+}
+.process__solution .process__image {
+	border-radius: 0 66px 66px 0;
+	overflow: hidden;
+}
+
+@media (max-width: 1200px) {
+	.process__image {
+		max-width: 420px;
+		height: auto;
+	}
+	.process__image img {
+		height: auto;
+	}
+	.process__tasks {
+		gap: 41px;
+	}
+	.process__solution {
+		gap: 41px;
+	}
+}
+@media (max-width: 992px) {
+	.process__tasks {
+		flex-direction: column;
+	}
+	.process__solution {
+		flex-direction: column-reverse;
+	}
+	.process__image {
+		max-width: 483px;
+	}
+	.process__tasks .process__image {
+		border-radius: 20px;
+	}
+	.process__solution .process__image {
+		border-radius: 20px;
+	}
+  .process__tasks {
+    gap: 25px;
+  }
+  .process__solution {
+    gap: 25px;
+  }
+  .process__content p:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .process {
+    padding-bottom: 60px;
+  }
+  .process__title {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+  .process__title {
+    margin-bottom: 10px;
+  }
+  .process__title p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 576px) {
+  .process {
+    padding-bottom: 40px;
+  }
+}

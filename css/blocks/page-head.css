@@ -1,0 +1,101 @@
+.page-head {
+  padding: 54px 0 115px;
+}
+.page-head__inner {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+.page-head__imgs {
+  max-width: 611px;
+  width: 100%;
+  height: 582px;
+  position: relative;
+}
+.page-head__img {
+  position: absolute;
+  border-radius: 20px;
+}
+.big {
+  right: 0;
+  top: 0;
+  max-width: 438px;
+  height: 100%;
+  width: 100%;
+}
+.small {
+  left: 0;
+  bottom: -30px;
+  width: 100%;
+  max-width: 353px;
+}
+
+.page-head__title {
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 1.26;
+	margin-bottom: 30px;
+}
+.page-head__text {
+	font-family: 'Titillium Web';
+	font-size: 20px;
+	line-height: 1.5;
+  max-width: 492px;
+  text-wrap: pretty;
+}
+
+
+
+@media (max-width: 1200px) {
+  .page-head__title {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  .page-head__inner {
+    gap: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .page-head__inner {
+    flex-direction: column-reverse;
+  }
+  .page-head__text {
+    max-width: 100%;
+  }
+  .page-head__imgs {
+    height: 450px;
+  }
+  .page-head__imgs {
+    height: 450px;
+  }
+  
+}
+@media (max-width: 768px)  {
+  .page-head {
+    padding: 40px 0;
+  }
+  .page-head__title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .page-head__text {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  .page-head__imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 100%;
+    width: 100%;
+    gap: 20px;
+    height: auto;
+    display: none;
+  }
+  .page-head__img {
+    position: static;
+    width: 100%;
+    max-width: 340px;
+  }
+}
